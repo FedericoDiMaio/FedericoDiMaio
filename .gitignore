@@ -18,11 +18,3 @@ uv.lock
 .idea
 .coverage
 .DS_Store
-resources/analisi
-resources/mock_franchigie
-dataguardian
-query
-src/select_sample_claims.py
-memorandum_filtri_4_casi.html
-output_analisi
-BR_ Recupero franchigie_AI_2004.docx
