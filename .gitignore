@@ -1,0 +1,28 @@
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+~$*
+
+experiments/*.ipynb_checkpoints
+examples/*.ipynb_checkpoints
+*.pdf
+*.env
+
+# Virtual environments
+.venv
+uv.lock
+.python-version
+.idea
+.coverage
+.DS_Store
+resources/analisi
+resources/mock_franchigie
+dataguardian
+query
+src/select_sample_claims.py
+memorandum_filtri_4_casi.html
+output_analisi
+BR_ Recupero franchigie_AI_2004.docx
