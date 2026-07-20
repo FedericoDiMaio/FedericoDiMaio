@@ -8,7 +8,6 @@ wheels/
 
 experiments/*.ipynb_checkpoints
 examples/*.ipynb_checkpoints
-*.pdf
 *.env
 
 # Virtual environments
