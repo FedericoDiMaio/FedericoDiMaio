@@ -180,6 +180,33 @@
     <p>Uso principalmente <span class="hl">Python</span> e <span class="hl">Java</span>, dallo sviluppo di pipeline di estrazione documentale al deployment in produzione su Kubernetes/OpenShift. Mi appassionano i problemi di NLP applicato — estrazione di informazioni da documenti, classificazione, e la valutazione rigorosa dei modelli.</p>
   </section>
 
+    <!-- CV -->
+  <section id="cv" class="reveal">
+    <div class="path"><span class="g">~/cv</span> $ ./download_cv.sh</div>
+    <h2>&gt; <span>curriculum</span></h2>
+    <p>Versione completa di esperienze, formazione e competenze.</p>
+    <a class="btn" href="Federico_Di_Maio_CV-1.pdf" download="Federico_Di_Maio_CV.pdf">⬇ Scarica il CV (PDF)</a>
+  </section>
+
+    <!-- PUBLICATIONS -->
+  <section id="publications" class="reveal">
+    <div class="path"><span class="g">~/publications</span> $ cat references.bib</div>
+    <h2>&gt; <span>pubblicazioni</span></h2>
+    <p class="note">50+ citazioni</p>
+
+    <article class="proj">
+      <h3>Degradation of Multi-Task Prompting Across Six NLP Tasks and LLM Families</h3>
+      <div class="meta">Di Maio Federico, Manuel Gozzi · MDPI Applied Science · Nov 2025</div>
+      <p>Analizza come l'aumento della complessità dei prompt influisca sulle prestazioni degli LLM su più task NLP, tramite un framework di valutazione incrementale su sei task e sei modelli open-source di famiglie diverse. Il degrado dipende fortemente dall'architettura: Qwen3 4B resta stabile su tutti i task, mentre Gemma 3 4B e Granite 3.1 3B collassano nei task semantici più fini.</p>
+    </article>
+
+    <article class="proj">
+      <h3>Comparative Analysis of Prompt Strategies for LLMs: Single-Task vs. Multitasking Prompts</h3>
+      <div class="meta">Manuel Gozzi, Di Maio Federico · MDPI Applied Science · Ott 2024</div>
+      <p>Confronta prompt single-task e multitasking su cinque LLM open-weight, valutando tramite test statistici (Wilcoxon, McNemar, Friedman) se un unico prompt multi-task possa eguagliare le prestazioni di prompt dedicati. I risultati mostrano che non esiste una regola univoca: le prestazioni dipendono fortemente da dati e architettura del modello.</p>
+    </article>
+  </section>
+
   <!-- SKILLS -->
   <section id="skills" class="reveal">
     <div class="path"><span class="g">~/skills</span> $ ls -la ./stack</div>
@@ -274,7 +301,7 @@
     <article class="proj">
       <h3>Lei-Exodia</h3>
       <div class="meta">Python · Qwen (vLLM) · Gemini · Leithà · 2025</div>
-      <p>Libreria Python per l'estrazione intelligente di informazioni da polizze assicurative tramite un vision-language model (Qwen via vLLM, con Gemini come fallback), orchestrato in una pipeline agentica per estrazioni precise e validate.</p>
+      <p>Libreria Python per l'estrazione intelligente di informazioni da polizze assicurative tramite un vision-language model, orchestrato in una pipeline agentica per estrazioni precise e validate.</p>
     </article>
 
     <article class="proj">
@@ -306,33 +333,6 @@
       <div class="meta">RAG · Open source · Isagog · 2023–2024</div>
       <p>Studio di ricerca per implementare un assistente virtuale open source dedicato alla ricerca di articoli per il giornale &ldquo;Il Manifesto&rdquo;.</p>
     </article>
-  </section>
-
-  <!-- PUBLICATIONS -->
-  <section id="publications" class="reveal">
-    <div class="path"><span class="g">~/publications</span> $ cat references.bib</div>
-    <h2>&gt; <span>pubblicazioni</span></h2>
-    <p class="note">50+ citazioni</p>
-
-    <article class="proj">
-      <h3>Degradation of Multi-Task Prompting Across Six NLP Tasks and LLM Families</h3>
-      <div class="meta">Di Maio Federico, Manuel Gozzi · MDPI Applied Science · Nov 2025</div>
-      <p>Analizza come l'aumento della complessità dei prompt influisca sulle prestazioni degli LLM su più task NLP, tramite un framework di valutazione incrementale su sei task e sei modelli open-source di famiglie diverse. Il degrado dipende fortemente dall'architettura: Qwen3 4B resta stabile su tutti i task, mentre Gemma 3 4B e Granite 3.1 3B collassano nei task semantici più fini.</p>
-    </article>
-
-    <article class="proj">
-      <h3>Comparative Analysis of Prompt Strategies for LLMs: Single-Task vs. Multitasking Prompts</h3>
-      <div class="meta">Manuel Gozzi, Di Maio Federico · MDPI Applied Science · Ott 2024</div>
-      <p>Confronta prompt single-task e multitasking su cinque LLM open-weight, valutando tramite test statistici (Wilcoxon, McNemar, Friedman) se un unico prompt multi-task possa eguagliare le prestazioni di prompt dedicati. I risultati mostrano che non esiste una regola univoca: le prestazioni dipendono fortemente da dati e architettura del modello.</p>
-    </article>
-  </section>
-
-  <!-- CV -->
-  <section id="cv" class="reveal">
-    <div class="path"><span class="g">~/cv</span> $ ./download_cv.sh</div>
-    <h2>&gt; <span>curriculum</span></h2>
-    <p>Versione completa di esperienze, formazione e competenze.</p>
-    <a class="btn" href="Federico_Di_Maio_CV-1.pdf" download="Federico_Di_Maio_CV.pdf">⬇ Scarica il CV (PDF)</a>
   </section>
 
   <!-- CONTACT -->
